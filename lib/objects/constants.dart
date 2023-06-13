@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 class GoldState {
   final String id;
   final String name;

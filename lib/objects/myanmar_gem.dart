@@ -6,7 +6,7 @@ class MyanmarGem extends MyanmarMass {
   const MyanmarGem._internal(this.carat) : super(yawe: carat * _yawesPerCarat);
 
   factory MyanmarGem({double yati = 0, double carat = 0}) {
-    return MyanmarGem._internal(yati + (carat * _yatisPerCarat));
+    return MyanmarGem._internal((yati / _yatisPerCarat) + carat);
   }
 
   factory MyanmarGem.fromYati(double yati) {
