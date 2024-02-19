@@ -1,5 +1,5 @@
 name: myanmar_jewellery_converter
-description: A sample command-line application.
+description: This library provides functionalities to manipulate and convert mass measurements in the Myanmar traditional measurement system. It includes classes for representing mass units and gold states, as well as methods for conversion between different units.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
