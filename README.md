@@ -3,17 +3,17 @@
 ### Introduction
 This library provides functionalities to manipulate and convert mass measurements in the Myanmar traditional measurement system. It includes classes for representing mass units and gold states, as well as methods for conversion between different units.
 
-### MyanmarMass
+### <a href="https://romanbot4.github.io/myanmar_jewellery_converter/myanmar_jewellery_converter/MyanmarMass-class.html">MyanmarMass</a>
 - Represents a unit of mass in the Myanmar traditional measurement system.
 - Provides methods for conversion between Kyat, Pae, and Yawe units, as well as to standard metric units like grams, kilograms, ounces, and pounds.
 - Supports arithmetic operations such as multiplication, division, addition, and subtraction.
 
-### GoldStateInfo
+### <a href="https://romanbot4.github.io/myanmar_jewellery_converter/myanmar_jewellery_converter/GoldStateInfo-class.html">GoldStateInfo</a>
 - Represents information about different states of gold, including ID, name, numerator, and denominator.
 - Allows conversion from a map for easy data initialization.
 - Provides a string representation for debugging and logging.
 
-### GoldStates
+### <a href="https://romanbot4.github.io/myanmar_jewellery_converter/myanmar_jewellery_converter/GoldStates-class.html">GoldStates</a>
 - An abstract class containing static constants for various gold states, such as A0, AC, B0, etc.
 - Provides a list of all gold states for easy access and iteration.
 
@@ -42,7 +42,7 @@ This library provides functionalities to manipulate and convert mass measurement
 | P4      | ပလက်တီနမ် (14K) |
 | P8      | ပလက်တီနမ် (18K) |
 
-### MyanmarGoldMass
+### <a href="https://romanbot4.github.io/myanmar_jewellery_converter/myanmar_jewellery_converter/MyanmarGoldMass-class.html">MyanmarGoldMass</a>
 - Represents the mass of gold in the Myanmar traditional measurement system.
 - Combines a GoldStateInfo object with a MyanmarMass object to represent the state and mass of gold together.
 - Provides methods to convert the gold state of the mass to different states.

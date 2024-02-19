@@ -1,3 +1,4 @@
+/// A class representing the mass in the Myanmar traditional measurement system.
 class MyanmarMass {
   final double _totalYawe;
 
