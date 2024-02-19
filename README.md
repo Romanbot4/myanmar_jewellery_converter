@@ -45,7 +45,7 @@ final goldMass = MyanmarGoldMass(state: GoldStates.A0, mass: mass);
 final new16PaeYayGoldMass = goldMass.as16PaeYayGoldState();
 
 // Convert gold state from 16 Pae Yay to any gold State  gold state (e.g: 8 Pae Yay)
-final new16PaeYayGoldMass = goldMass.covertGoldState(GoldStates.A0);
+final new8PaeYayGoldMass = goldMass.covertGoldState(GoldStates.I0);
 ```
 ## Caution
 While this library aims to accurately represent mass measurements, it's important to note that the correctness of the calculations may vary based on factors such as implementation details, rounding errors, and variations in measurement standards.
