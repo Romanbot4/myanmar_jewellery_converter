@@ -1,0 +1,25 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:  
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        sdk: [stable, dev] # {pkgs.versions}
+        include:
+          - sdk: stable
+            run-tests: true
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup DartSDK
+        uses: dart-lang/setup-dart@v1
+      
+      - run: dart pub get
+      - run: dart analyze
+      - run: dart test
