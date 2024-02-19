@@ -26,13 +26,13 @@ jobs:
       - run: dart test
 
       - name: generate doc
-        run: dart doc
+        run: dart doc --output=./doc
 
       - name: Upload documentation files
         uses: actions/upload-artifact@v2
         with:
           name: documentation-files
-          path: ./doc/api
+          path: ./doc/
   deploy:
     name: Deploy
     needs: build
@@ -46,11 +46,11 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: documentation-files
-          path: ./doc/api
+          path: ./doc/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./doc/api
+          publish_dir: ./doc/
   
