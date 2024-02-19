@@ -1,4 +1,4 @@
-import 'package:myanmar_jewellery_converter/src/myanmar_gold_mass/myanmar_gold_state.dart';
+import 'package:myanmar_jewellery_converter/myanmar_jewellery_converter.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -9,7 +9,7 @@ void main() {
       final double tNumerator = 1.2;
       final double tDenominator = 3.4;
 
-      final object = GoldState(
+      final object = GoldStateInfo(
         id: tId,
         name: tName,
         numerator: tNumerator,
@@ -23,14 +23,14 @@ void main() {
     });
 
     test("equality return false if not equal", () {
-      final object1 = GoldState(
+      final object1 = GoldStateInfo(
         id: 'id',
         name: 'name',
         numerator: 1.2,
         denominator: 3.4,
       );
 
-      final object2 = GoldState(
+      final object2 = GoldStateInfo(
         id: 'id',
         name: 'name',
         numerator: 1.2,
@@ -41,14 +41,14 @@ void main() {
     });
 
     test("equality return true if equal", () {
-      final object1 = GoldState(
+      final object1 = GoldStateInfo(
         id: 'id',
         name: 'name',
         numerator: 1.2,
         denominator: 3.4,
       );
 
-      final object2 = GoldState(
+      final object2 = GoldStateInfo(
         id: 'id',
         name: 'name',
         numerator: 1.2,
