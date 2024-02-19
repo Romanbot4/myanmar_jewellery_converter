@@ -17,6 +17,31 @@ This library provides functionalities to manipulate and convert mass measurement
 - An abstract class containing static constants for various gold states, such as A0, AC, B0, etc.
 - Provides a list of all gold states for easy access and iteration.
 
+| StateID | StateName       |
+|---------|-----------------|
+| A0      | 16ပဲရည်       |
+| AC      | 16ပဲရည် (AC) |
+| B0      | 15ပဲရည်       |
+| C0      | 14ပဲရည်       |
+| C1      | 14 ပဲ 4 ရွေး |
+| D0      | 13ပဲရည်       |
+| E0      | 18K             |
+| E1      | 12 ပဲ 4 ရွေး |
+| E2      | 750 (18K)       |
+| E3      | rose            |
+| ET      | 18K             |
+| F0      | 11ပဲရည်       |
+| F1      | 11 ပဲ 4 ရွေး |
+| G0      | 10ပဲရည်       |
+| G1      | 10 ပဲ 4 ရွေး |
+| H0      | 9ပဲရည်        |
+| H1      | 9 ပဲ 4 ရွေး   |
+| I0      | 8ပဲရည်        |
+| I1      | 8 ပဲ 4 ရွေး   |
+| JO      | Jade            |
+| P4      | ပလက်တီနမ် (14K) |
+| P8      | ပလက်တီနမ် (18K) |
+
 ### MyanmarGoldMass
 - Represents the mass of gold in the Myanmar traditional measurement system.
 - Combines a GoldStateInfo object with a MyanmarMass object to represent the state and mass of gold together.
