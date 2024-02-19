@@ -24,7 +24,7 @@ jobs:
       - run: dart analyze
       - run: dart test
 
-      -name: generate doc
+      - name: generate doc
         run: dart doc
 
       - name: Upload documentation files
