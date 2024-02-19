@@ -74,6 +74,12 @@ final new8PaeYayGoldMass = goldMass.covertGoldState(GoldStates.I0);
 ```
 ## Caution
 While this library aims to accurately represent mass measurements, it's important to note that the correctness of the calculations may vary based on factors such as implementation details, rounding errors, and variations in measurement standards.
+Therefore, it's recommended that users thoroughly test the library in their specific use cases before relying on it for commercial production purposes. Community testing and contributions over time can help improve the accuracy and reliability of the library.
 
-Therefore, it's recommended that users thoroughly test the library in their specific use cases before relying on it for commercial production purposes. Community testing and contributions over time can help improve the accuracy and reliability of the library. Enjoy coding! 🍔🍕🚀
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
+## License
+This project is licensed under the MIT License.
+
+Enjoy coding! 🍔🍕🚀

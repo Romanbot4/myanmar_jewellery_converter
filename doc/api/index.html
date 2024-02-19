@@ -72,6 +72,104 @@
 <li>An abstract class containing static constants for various gold states, such as A0, AC, B0, etc.</li>
 <li>Provides a list of all gold states for easy access and iteration.</li>
 </ul>
+<table>
+<thead>
+<tr>
+<th>StateID</th>
+<th>StateName</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A0</td>
+<td>16ပဲရည်</td>
+</tr>
+<tr>
+<td>AC</td>
+<td>16ပဲရည် (AC)</td>
+</tr>
+<tr>
+<td>B0</td>
+<td>15ပဲရည်</td>
+</tr>
+<tr>
+<td>C0</td>
+<td>14ပဲရည်</td>
+</tr>
+<tr>
+<td>C1</td>
+<td>14 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>D0</td>
+<td>13ပဲရည်</td>
+</tr>
+<tr>
+<td>E0</td>
+<td>18K</td>
+</tr>
+<tr>
+<td>E1</td>
+<td>12 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>750 (18K)</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>rose</td>
+</tr>
+<tr>
+<td>ET</td>
+<td>18K</td>
+</tr>
+<tr>
+<td>F0</td>
+<td>11ပဲရည်</td>
+</tr>
+<tr>
+<td>F1</td>
+<td>11 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>G0</td>
+<td>10ပဲရည်</td>
+</tr>
+<tr>
+<td>G1</td>
+<td>10 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>H0</td>
+<td>9ပဲရည်</td>
+</tr>
+<tr>
+<td>H1</td>
+<td>9 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>I0</td>
+<td>8ပဲရည်</td>
+</tr>
+<tr>
+<td>I1</td>
+<td>8 ပဲ 4 ရွေး</td>
+</tr>
+<tr>
+<td>JO</td>
+<td>Jade</td>
+</tr>
+<tr>
+<td>P4</td>
+<td>ပလက်တီနမ် (14K)</td>
+</tr>
+<tr>
+<td>P8</td>
+<td>ပလက်တီနမ် (18K)</td>
+</tr>
+</tbody>
+</table>
 <h3 id="myanmargoldmass">MyanmarGoldMass</h3>
 <ul>
 <li>Represents the mass of gold in the Myanmar traditional measurement system.</li>
@@ -101,11 +199,11 @@ final goldMass = MyanmarGoldMass(state: GoldStates.A0, mass: mass);
 final new16PaeYayGoldMass = goldMass.as16PaeYayGoldState();
 
 // Convert gold state from 16 Pae Yay to any gold State  gold state (e.g: 8 Pae Yay)
-final new16PaeYayGoldMass = goldMass.covertGoldState(GoldStates.A0);
+final new8PaeYayGoldMass = goldMass.covertGoldState(GoldStates.I0);
 </code></pre>
 <h2 id="caution">Caution</h2>
-<p>While this plugin aims to accurately represent mass measurements, it's important to note that the correctness of the calculations may vary based on factors such as implementation details, rounding errors, and variations in measurement standards.</p>
-<p>Therefore, it's recommended that users thoroughly test the plugin in their specific use cases before relying on it for commercial production purposes. Community testing and contributions over time can help improve the accuracy and reliability of the plugin. Enjoy coding! 🍔🍕🚀</p>
+<p>While this library aims to accurately represent mass measurements, it's important to note that the correctness of the calculations may vary based on factors such as implementation details, rounding errors, and variations in measurement standards.</p>
+<p>Therefore, it's recommended that users thoroughly test the library in their specific use cases before relying on it for commercial production purposes. Community testing and contributions over time can help improve the accuracy and reliability of the library. Enjoy coding! 🍔🍕🚀</p>
 </section>
 
 
