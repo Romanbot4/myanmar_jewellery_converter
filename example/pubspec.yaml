@@ -1,12 +1,14 @@
 name: myanmar_jewellery_converter_example
 description: Example command line applicaition for myanmar_jewellery_converter library
 version: 1.0.0
+publish_to: none
 
 environment:
   sdk: ^3.2.5
 
 dependencies:
-  myanmar_jewellery_converter: 1.0.0
+  myanmar_jewellery_converter:
+    path: ../
 
 dev_dependencies:
   lints: ^2.1.0
