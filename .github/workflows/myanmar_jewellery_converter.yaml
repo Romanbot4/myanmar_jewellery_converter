@@ -27,13 +27,14 @@ jobs:
 
   deploy:
     name: Deploy
-    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Pages
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
